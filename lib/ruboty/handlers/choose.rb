@@ -4,7 +4,7 @@ module Ruboty
   module Handlers
     class Choose < Base
       on(
-        /choose (?<params>.*)\z/,
+        /choose (?<items>.*)\z/,
         name: 'choose',
         description: 'choose'
       )
