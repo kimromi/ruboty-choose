@@ -1,5 +1,5 @@
 module Ruboty
-  module Roulette
+  module Choose
     VERSION = "0.1.0"
   end
 end
